@@ -11,7 +11,7 @@
      class Food {
       private $name;
       private $price;
-      public function __construct(string $name,int $price){
+      public function show_height(string $name,int $price){
         $this->name=$name;
         $this->price=$price;
       }
@@ -28,7 +28,7 @@
       private $heigh;
       private $weight;
 
-      public function __construct(string $name,int $heigh,int $weight){
+      public function show_height(string $name,int $heigh,int $weight){
         $this->name=$name;
         $this->heigh=$heigh;
         $this->weight=$weight;
